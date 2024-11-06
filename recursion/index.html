@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recusrion</title>
+</head>
+
+<body>
+    <h1>Recusrion</h1>
+</body>
+<script>
+
+    //  Tail Recusrion
+    const CountingTail = (n) => {
+        if (n == 0) {
+            return 1
+        }
+        console.log(n)
+        CountingTail(n - 1)
+    }
+
+    CountingTail(5)
+
+</script>
+
+</html>
